@@ -8,7 +8,10 @@ the preoject is diveded in to a quarterly and weekly deliverbles. Excell is used
 a trello board for task tracking
 
 * A link to a Trello board for the project
+https://trello.com/b/uhZ6GdYt/azure-devops-ml-app
 * A link to a spreadsheet that includes the original and final project plan>
+
+https://github.com/Yohannesns/Azure-CICD/blob/master/project-management-template.xlsx
 
 ## Instructions
   
