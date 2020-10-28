@@ -9,40 +9,37 @@
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
-
-<TODO:  
+  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
-
-* Project running on Azure App Service
-
+Instructions for running the Python project.  
+1. Create GitHub Repo
+2.Launch an Azure cloud Shell environment and create ssh-keys upload these keys to your Github account
 * Project cloned into Azure Cloud Shell
-
+https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+3. Create project scaffolding Makefile, hello.py, test_hello.py, requirements.txt
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 * Output of a test run
+https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+5. configure Github acctions
+6. verfiy remote test pass (enable Github actions)
+https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+
+7. continues delivery using azure pipelines and deploy flask code
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
-
+8. call ./make_prediction.sh
+9. inspect the log file
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
-
-> 
+https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+ 
 
 ## Demo 
 
