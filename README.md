@@ -1,9 +1,11 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This project demonstrate how to deploy a pre-trained Sklearn model machine learning application on
+microsoft azure by implemanting CICD using Github, GitHub acctions and azure pipeline.
 
 ## Project Plan
-<TODO: Project Plan
+the preoject is diveded in to a quarterly and weekly deliverbles. Excell is used for time management and
+a trello board for task tracking
 
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>
@@ -18,15 +20,16 @@ Instructions for running the Python project.
 1. Create GitHub Repo
 2.Launch an Azure cloud Shell environment and create ssh-keys upload these keys to your Github account
 * Project cloned into Azure Cloud Shell
-https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+https://github.com/Yohannesns/Azure-CICD/blob/master/RepoCloneWithAzure.PNG
 3. Create project scaffolding Makefile, hello.py, test_hello.py, requirements.txt
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+https://github.com/Yohannesns/Azure-CICD/blob/master/Make.PNG
 
 * Output of a test run
-https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+https://github.com/Yohannesns/Azure-CICD/blob/master/Make.PNG
 5. configure Github acctions
 6. verfiy remote test pass (enable Github actions)
-https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+https://github.com/Yohannesns/Azure-CICD/blob/master/GithubActions.PNG
 
 7. continues delivery using azure pipelines and deploy flask code
 
@@ -37,11 +40,11 @@ https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
 9. inspect the log file
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+https://github.com/Yohannesns/Azure-CICD/blob/master/predict.PNG
 
 ## Enhancements
 
- 
+ The project can be improved by using other frameworks and machine learning model.
 
 ## Demo 
 
