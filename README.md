@@ -19,9 +19,14 @@ https://app.diagrams.net/#HYohannesns%2FAzure-CICD%2Fmaster%2FArchitectural%20Di
 Instructions for running the Python project.  
 1. Create GitHub Repo
 2.Launch an Azure cloud Shell environment and create ssh-keys upload these keys to your Github account
+  ** on azure cloude shell Create your SSH keys with the ssh-keygen 
+ ** git clone <your git repo>
+** python3 -m venv ~/.flask-ml-azure
+** source ~/.flask-ml-azure/bin/activate
 * Project cloned into Azure Cloud Shell
 https://github.com/Yohannesns/Azure-CICD/blob/master/RepoCloneWithAzure.PNG
 3. Create project scaffolding Makefile, hello.py, test_hello.py, requirements.txt
+  navigate to project directory edit permition  Chmod +x <directory> then run make all
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 https://github.com/Yohannesns/Azure-CICD/blob/master/Make.PNG
 
@@ -32,7 +37,9 @@ https://github.com/Yohannesns/Azure-CICD/blob/master/Make.PNG
 https://github.com/Yohannesns/Azure-CICD/blob/master/GithubActions.PNG
 
 7. continues delivery using azure pipelines and deploy flask code
-
+ az webapp up --SKU F1 -n <appname>
+https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
+  
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 * Running Azure App Service from Azure Pipelines automatic deployment
