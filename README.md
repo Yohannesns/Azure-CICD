@@ -17,7 +17,7 @@ https://github.com/Yohannesns/Azure-CICD/blob/master/project-management-template
   
 * Architectural Diagram (Shows how key parts of the system work)>
 
-https://app.diagrams.net/#HYohannesns%2FAzure-CICD%2Fmaster%2FArchitectural%20Diagram
+https://github.com/Yohannesns/Azure-CICD/blob/master/Architectural%20Diagram-Page-1%20(1).png
 
 Instructions for running the Python project.  
 1. Create GitHub Repo
