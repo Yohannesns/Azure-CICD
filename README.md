@@ -52,6 +52,10 @@ https://github.com/Yohannesns/Azure-CICD/blob/master/Deploy.PNG
 The output should look similar to this:
 https://github.com/Yohannesns/Azure-CICD/blob/master/predict.PNG
 
+locust image
+
+https://github.com/Yohannesns/Azure-CICD/blob/master/Loc.PNG
+
 ## Enhancements
 
  The project can be improved by using other frameworks and machine learning model.
