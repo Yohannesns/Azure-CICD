@@ -1,7 +1,7 @@
 # Overview
 
-This project demonstrate how to deploy a pre-trained Sklearn model machine learning application on
-microsoft azure by implemanting CICD using Github, GitHub acctions and azure pipeline.
+This project demonstrate how to deploy a pre-trained Sklearn model machine learning application on Microsoft azure
+by implementing CICD using GitHub, GitHub actions and azure pipeline.
 
 ## Project Plan
 the preoject is diveded in to a quarterly and weekly deliverbles. Excell is used for time management and
